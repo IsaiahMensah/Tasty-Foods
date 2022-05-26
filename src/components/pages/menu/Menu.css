@@ -1,0 +1,38 @@
+.food-menu{
+  height: 340vh;
+  width: 100%;
+ background-color:rgb(218, 195, 92);
+ border: 0;
+}
+.menu-section > .text{
+  text-align: center;
+  font-weight: 900;
+  padding-top: 30px;
+  /* text-decoration:underline; */
+  font-size: 25px;
+
+}
+
+
+.sub-menu{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:940px) {
+  .food-menu{
+    height:1320vh;
+    width: 100%;
+   background-color:rgb(167, 216, 233);
+   border: 0;
+  }
+  .sub-menu{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    /* grid-template-columns: 50% 50% ; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

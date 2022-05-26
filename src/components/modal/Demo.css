@@ -1,0 +1,81 @@
+
+.a-about .col{
+    float: left;
+    width: 50%;
+    height: 80vh;
+    background: whitesmoke;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    
+}
+/* .col img{
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+} */
+ .col  h2{
+    text-align: center;
+    margin-top: 7rem;
+    font-weight: 900;
+    color: rgb(236, 32, 32);
+    font-size: 29px;
+    text-decoration: underline;
+}
+.a-about  .col  .a-p{
+    color: rgb(199, 14, 14);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin: 7rem; */
+}
+.modal-body  button{
+ 
+   
+}
+.modal-body  button:hover{
+  background-color: blue;
+    color: white;
+    border:3px solid blue ;
+}
+.modal {
+    width: 80%;
+    height: 60vh;
+    margin: 5rem 0 0 7rem;
+    /* align-items: center; */
+    background: transparent;
+}
+.modal-body h1 {
+    padding-top: 30px;
+}
+.modal-btn {
+    margin-top: 18rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* margin-left: 5rem; */
+    /* flex-direction: row; */
+}
+.modal-btn button{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 34px;
+    /* justify-content: space-between; */
+    font-size: 18px;
+    height: 3rem;
+    text-align: center;
+    width: 7rem;
+    
+}
+.modal-body .details{
+    margin: 1rem;
+    
+}
+.modal-body > .details > h2 {
+    text-align: left;
+    text-decoration: none;
+    color:black;
+   text-transform: capitalize;
+    margin-top: 0rem;
+}

@@ -1,0 +1,94 @@
+.contact{
+    border: 0;
+    width: 100%;
+    height: 190vh;
+    /* background:rgba(0,0,0,0.6) url("../../images/photo-1414235077428-338989a2e8c0.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken; */
+    background-color: rgba(255, 255, 255,0.56,);
+    /* border: 2px solid black; */
+  
+    
+}
+.f-container{
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    text-align: center;
+    background-color: transparent;
+    
+    
+}
+.f-form > .input-form{
+    width: 60rem;
+    
+    height: 60px;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    font-size: 28px;
+    
+}
+.f-form > ::placeholder{
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.f-button{
+    padding-top: 2rem ;
+    text-align: center;
+}
+.f-button > .f-btn{
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 25px;
+    border-radius: 34px;
+}
+.f-btn:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.tittle{
+    padding-top: 4rem;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+@media screen and (max-width:940px) {
+    .contact{
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+    }
+    /* .f-form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    } */
+    
+    .f-form > .input-form{
+        width: 320px;
+        height: 60px;
+        color: rgb(209, 37, 37);
+        border: none;
+       
+        outline: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        font-size: 18px;
+        
+    }
+}

@@ -1,0 +1,60 @@
+.subscribe{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(231, 231, 229);
+    
+}
+.s-container{
+    height: 60vh;
+
+}
+.s-form{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.sub-form{
+    width: 25rem;
+    height: 4rem;
+    border: 2px solid black;
+    border-radius: 34px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 18px;
+    color:black;
+}
+.s-form::placeholder{
+    color: black;
+    padding-left: 9px;
+}
+.s-form > button{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 34px;
+    height: 4.4rem;
+    width: 6rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 18px;
+   
+}
+ .goodfood{
+    padding-top: 1rem;
+    
+    color: black;
+    /* padding-bottom: 1rem; */
+}
+.sub-text > .head{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.info{
+    color: black;
+}
+.s-container > .s-text{
+    text-align: center;
+    padding-top: 60px;
+}

@@ -1,0 +1,87 @@
+.card {
+  width: 85%;
+  height: 28rem;
+  margin-left: 1.7rem;
+  margin-top: 2.5rem;
+  /* border: 3px solid green; */
+  box-shadow: 5px 10px rgb(127, 127, 184);
+  border-radius: 34px;
+  background-color: white;
+}
+.c-card > .card-body {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: white;
+  text-decoration: none;
+}
+.card-title{
+  font-size: 30px;
+
+}
+.card-body > .card-text{
+  font-size: 29px;
+}
+
+.cart-btn {
+  margin: 1rem;
+}
+.card-body > button{
+  background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 34px;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 0.5rem;
+   
+}
+.card-body > button:hover{
+  background-color: blue;
+    color: white;
+    border:3px solid blue ;
+}
+.img_props {
+  width: 100%;
+  border-radius: 34px;
+  height: 30vh;
+}
+@media screen and (max-width:940px){
+  .card {
+    width: 85%;
+    height: 37rem;
+    margin-left: 1.7rem;
+    margin-top: 2.5rem;
+    border: 3px solid green;
+    box-shadow: 6px solid green;
+    border-radius: 34px;
+    background-color: white;
+  }
+  .img_props {
+    width: 100%;
+    border-radius: 34px;
+    height: 50vh;
+  }
+  .card-body > button{
+    background-color: white;
+      color: blue;
+      border: 2px solid blue;
+      border-radius: 34px;
+      justify-content: space-evenly;
+      font-size: 15px;
+      height: 3rem;
+      width: 10rem;
+      margin-top: 2.5rem;
+      
+     
+  }
+  .card-title{
+    font-size: 30px;
+
+  }
+  .card-text{
+    font-size: 29px;
+  }
+}

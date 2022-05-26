@@ -1,0 +1,43 @@
+.aboutpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.aboutpage >.col{
+    float: left;
+    width: 50%;
+    height: 85vh;
+    background: rgba(220, 220, 231, 0.863);
+    /* border: 2px solid black; */
+}
+.aboutpage > .col > .a-b{
+    text-align: center;
+    margin-top: 7rem;
+    font-weight: 900;
+    color: black;
+    font-size: 29px;
+    text-decoration: underline;
+}
+.aboutpage > .col > .a-p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3rem;
+}
+
+@media screen and (max-width:940px) {
+.about{
+        display: flex;
+        flex-direction: column; 
+         flex-wrap: wrap;
+    
+    }
+.col{
+    
+    width: 100%;
+    height: 500px;
+    background: rgba(35, 36, 70, 0.863);
+}
+}

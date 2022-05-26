@@ -1,0 +1,17 @@
+.modal-body > button{
+    background-color: white;
+      color: blue;
+      border: 2px solid blue;
+      border-radius: 34px;
+      justify-content: space-between;
+      font-size: 18px;
+      height: 3rem;
+      width: 10rem;
+      margin-top: 5.5rem;
+     
+  }
+  .modal-body > button:hover{
+    background-color: blue;
+      color: white;
+      border:3px solid blue ;
+  }
