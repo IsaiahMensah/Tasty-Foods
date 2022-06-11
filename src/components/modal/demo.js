@@ -42,8 +42,8 @@ function SimpleModal(product) {
 
   const data = [
     {
-      title: "Overview",
-      Info: "Pay me",
+      title: "More",
+      // Info: "Pay me",
     },
   ];
   const CustomModal = () => {
@@ -56,7 +56,7 @@ function SimpleModal(product) {
         onClose={handleClose}
       >
         <div className="modal">
-          <div className="a-about">
+          <div className="m-modal">
             <div className="col">
               <img src={productDetail.img} width="100%" height="100%" alt="" />
             </div>
@@ -68,6 +68,7 @@ function SimpleModal(product) {
                    <h2 ><strong>Food Type:</strong>{productDetail.type}</h2>
                    <h2><strong>Time Taken:</strong>{productDetail.mealtype}</h2>
                 </div>
+                
                 <div className="modal-btn">
                   <button>Buy</button>
                   <button>Add to Cart</button>
@@ -96,9 +97,9 @@ function SimpleModal(product) {
       {data.map((d, idx) => (
         <div key={idx}>
           <Typography gutterBottom>
-            Click to get the full Modal experience!
+            Click More To get More Info On The Product!
           </Typography>
-          <Button
+          <Button className="more-btn"
             onClick={() => {
               handleOpen(idx);
             }}

@@ -1,9 +1,11 @@
-.container{
+.l-container{
     background-color:white;
+    height: 100vh;
+    width: 100%;
 }
 .login-page{
     width: 360px;
-    padding: 10% 0 0;
+    /* padding: 10% 0 0; */
     margin: auto;
     
 }
@@ -15,6 +17,7 @@
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
+    float: left;
     box-shadow: 22px 34px 23px 12px black;
 }
 .form  input{

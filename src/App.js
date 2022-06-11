@@ -11,7 +11,7 @@ import Shop from "./components/pages/shop/Shop"
 import Menu from "./components/pages/menu/Menu"
 import Reserve from "./components/pages/reservations/Reserve"
 import Subscribe from "./components/subscribe/Subscribe";
-import Login from "./components/login/Login"
+import Signup from "./components/pages/signup/Signup"
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/reserve" element={<Reserve />} />
-        <Route path="/signup" element={<Login/>} />
+        {/* <Route path="/signup" element={<Signup/>} /> */}
       </Routes>
       <Subscribe/>
     </>

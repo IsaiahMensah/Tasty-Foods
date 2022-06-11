@@ -19,15 +19,15 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li><Link to="/menu">Menu</Link></li>
-            <li><Link to="order">OnlineOdering</Link></li>
+            {/* <li><Link to="order">OnlineOdering</Link></li> */}
             <li><Link to="/shop">Shop</Link> </li>
            
             <li>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/aboutchef">About The Chef</Link>
-            </li>
+            </li> */}
             <li><Link to="/ourteam">OurTeam</Link></li>
             <li><Link to="/feedback">Feedback</Link></li>
             
@@ -38,8 +38,7 @@ function Navbar() {
           <GiShoppingBag className="bag"/>
         </div>
         <div className="signup-btn">
-          <button><Link to="/signup
-          ">SignUp</Link></button>
+          <button>SignUp </button>
         </div>
         <div className="n-menu">
             <AiOutlineMenu className="menu"/>

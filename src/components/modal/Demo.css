@@ -1,11 +1,11 @@
 
-.a-about .col{
+.m-modal .col{
     float: left;
     width: 50%;
     height: 80vh;
     background: whitesmoke;
-    border-top-right-radius: 34px;
-    border-bottom-right-radius: 34px;
+    /* border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px; */
     margin: 0 auto;
     /* border: 1px solid red; */
     
@@ -14,7 +14,7 @@
     border-top-left-radius: 34px;
     border-bottom-left-radius: 34px;
 } */
- .col  h2{
+.m-modal .col  h2{
     text-align: center;
     margin-top: 7rem;
     font-weight: 900;
@@ -22,17 +22,17 @@
     font-size: 29px;
     text-decoration: underline;
 }
-.a-about  .col  .a-p{
+.m-modal  .col  .a-p{
     color: rgb(199, 14, 14);
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     /* margin: 7rem; */
 }
-.modal-body  button{
+/* .modal-body  button{
  
    
-}
+} */
 .modal-body  button:hover{
   background-color: blue;
     color: white;
@@ -46,7 +46,7 @@
     background: transparent;
 }
 .modal-body h1 {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .modal-btn {
     margin-top: 18rem;
@@ -78,4 +78,10 @@
     color:black;
    text-transform: capitalize;
     margin-top: 0rem;
+}
+.more-btn d.title{
+    height: 2rem;
+    width: 5rem;
+    border: 2px solid blue;
+    border-radius: 34px;
 }

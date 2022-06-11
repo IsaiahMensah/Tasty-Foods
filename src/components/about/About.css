@@ -1,12 +1,12 @@
-.a-about{
+/* .a-about{
     /* display: flex;
     flex-direction: column;
     flex-wrap: wrap; */
     /* height: 100vh; */
     /* margin: 1rem; */
     
-    /* background-color: rgba(0, 0, 0, 0.6); */
-}
+    /* background-color: rgba(0, 0, 0, 0.6); 
+} */
 .a-about > .col{
     float: left;
     width: 50%;

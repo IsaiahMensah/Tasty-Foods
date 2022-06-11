@@ -5,6 +5,8 @@
   /* border: 2px solid grey; */
   width: 100%;
   border: 0;
+  font-family: 'sans-serif', cursive;
+
 }
 .n-logo img {
   height: 10rem;
@@ -42,6 +44,7 @@
   font-weight: 900;
   justify-content: space-evenly;
   transform: scale(1);
+  line-height: 7rem;
 }
 
 .n-list > ul:hover {
@@ -62,7 +65,7 @@
   color: blue;
   height: 2.5rem;
   border: 2px solid blue;
-  width: 5rem;
+  width: 6rem;
   font-size: 20px;
   border-radius: 35px;
 }

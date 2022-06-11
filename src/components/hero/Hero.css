@@ -4,7 +4,7 @@
   background-position: center;
   background-blend-mode: darken;
   background-size: cover;
-  height: 110vh;
+  height: 100vh;
   
   margin-top: 0;
   width: 100%;
@@ -13,16 +13,18 @@
 }
 .h-text {
   text-align: center;
+  font-family: sans-serif;
   padding-top: 90px;
 }
 .h-text > h1 {
-  font-size: 46px;
+  font-size: 20px;
   text-align: center;
+  font-family: sans-serif;
   padding-top: 50px;
   color: white;
 }
 .h-text > p {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   font-weight: 800;
 }

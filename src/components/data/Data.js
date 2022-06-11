@@ -27,7 +27,7 @@ const Data = {
       id: 3,
       img: img3,
       title: "Pasta",
-      desc: "lorem kfedjfndfc f fdenfdejnf jefc jn  fejdfneef ifdefneinffknc drjedemfnf fujednejnbuef efeifnejfbeuf efjef cejnehfieffc uefjenfufen eiuffeenfefekfneduf feufnfedjfbuedf fuefedfnue eduffjbuf fufjbfuf fufjbf f",
+      desc: "Best Eaten as Lunch",
       price: 10,
       type:"continental",
       mealtype:"lunch"
